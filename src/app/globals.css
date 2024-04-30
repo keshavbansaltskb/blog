@@ -1,0 +1,88 @@
+
+.navlink{
+    color:black;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: serif;
+}
+.navlink li label{
+    cursor: pointer;
+}
+.logout{
+    color:white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+/* Image Text */
+.imagecat{
+    position: relative;
+}
+.blogcategory{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* All Topics */
+
+.topiccard{
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height:fit-content;
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.topicname{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.topicname:hover{
+    color: red;
+}
+.sdesname{
+    cursor: text;
+    font-size: 15px;
+    font-family: serif;
+}
+
+/* Topic */
+.topic-container{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.topic{
+    margin-left:20px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+}
+.topic:hover{
+    color: red;
+}
+.description{
+    margin-left:20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Search Input  */
+
+@media screen and (max-width: 992px) {
+    .SearchClass{
+        margin-top: 20px;
+    }
+  }
